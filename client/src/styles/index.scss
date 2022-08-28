@@ -1,0 +1,14 @@
+@import "./variables";
+// @import "bootstrap/scss/bootstrap.scss";
+// @import "../../node_modules/rsuite/dist/rsuite.min.css";
+// @import "rsuite/dist/styles/rsuite-default.css";
+
+*,
+html {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	// color: black;
+	@media screen and (max-width: 768px) {
+		font-size: 16px;
+	}
+}
